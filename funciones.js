@@ -53,13 +53,13 @@ $(document).on("pagecreate","#SWIPERIGHT",function(){
   });                       
 });		
 
-$(document).on("pagecreate",function(event){
+$(document).on("pagecreate","#ORIENTACION",function(event){
   $(window).on("orientationchange",function(event){
     alert("Orientation changed to: " + event.orientation);
   });                     
 });
 
-$(document).on("pagecreate",function(event){
+$(document).on("pagecreate","#ORIENTACION",function(event){
   $(window).on("orientationchange",function(){
     if(window.orientation == 0)
     {
