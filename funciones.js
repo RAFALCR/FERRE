@@ -63,11 +63,11 @@ $(document).on("pagecreate",function(event){
   $(window).on("orientationchange",function(){
     if(window.orientation == 0)
     {
-      $("p").text("The orientation has changed to portrait!").css({"background-color":"yellow","font-size":"300%"});
+      $("p").text("LA ORIENTACION DEL CELULAR ES VERTICAL!").css({"background-color":"yellow","font-size":"300%"});
     }
     else
     {
-      $("p").text("The orientation has changed to landscape!").css({"background-color":"pink","font-size":"200%"});
+      $("p").text("LA ORIENTACION DEL CELULAR ES HORIZONTAL!").css({"background-color":"pink","font-size":"200%"});
     }
   });                   
 });
