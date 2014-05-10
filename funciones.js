@@ -58,16 +58,3 @@ $(document).on("pagecreate","#ORIENTACION",function(event){
     alert("Orientation changed to: " + event.orientation);
   });                     
 });
-
-$(document).on("pagecreate","#ORIENTACION",function(event){
-  $(window).on("orientationchange",function(){
-    if(window.orientation == 0)
-    {
-      $("p").text("LA ORIENTACION DEL CELULAR ES VERTICAL!").css({"background-color":"yellow","font-size":"300%"});
-    }
-    else
-    {
-      $("p").text("LA ORIENTACION DEL CELULAR ES HORIZONTAL!").css({"background-color":"pink","font-size":"200%"});
-    }
-  });                   
-});
